@@ -1,0 +1,150 @@
+ <video id="video" controls>
+        <source src="https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_30mb.mp4" type="video/mp4">
+    </video><br> <br> <hr>
+</p>
+ 
+<form id="form" action= "https://www.freecodecamp.com/email-submit">
+    <label for="email">Email:</label>
+    <input type="email" size="30" required placeholder="Your email here"><br><br>
+        <input type="submit" value="Submit" id="submit">
+</form>
+
+
+body{
+padding: 0rem;
+margin: 0rem;
+}
+
+#header-img {
+    max-width: 35px;
+    max-height: 35px;
+padding: 0px 0px;
+}
+#header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 10%;
+}
+span {
+    font-size: larger;
+    font-weight: 500;
+    font-family: monospace;
+padding: 0% 0px;
+}
+li, a, button {
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.nav-link {
+    list-style: none;
+}
+.nav-link li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-link li a {
+    transition: all 0.3s ease 0s;
+}
+.nav-link li a:hover {
+   color: rgb(158, 135, 45);
+}
+button {
+    padding: 9px 25px;
+    background-color: rgb(87, 87, 87);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: white;
+}
+p {
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+}
+#form {
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* this is where your past self made me look a lil' bit better on mobile */
+
+@media (max-width: 700px)  {
+    .nav-link {
+     display: flex;
+     flex-direction: row;
+     margin: 0rem 0rem;
+     padding: 0rem 0rem;
+     font-size: 0.6rem;
+     color: white;
+    }
+     span {
+        font-size: 25px;
+        margin: 0rem 0rem;
+        padding: 0rem 0rem;
+        color: white;
+    }
+    #header-img {
+            max-width: 1.5rem;
+    max-height: 1.5rem;
+padding: 0px 0px;
+margin: 0rem 0rem;
+background-color: white;
+    }
+    #header{
+        padding: 0rem;
+        margin: 0rem;
+        position: fixed;
+    color: white;
+    background: rgb(31, 30, 30); 
+    }
+    button {
+        font-size: 0.9rem;
+        padding: 0rem 0rem;
+        margin: 0rem 0rem;
+        border-radius: 3px;
+        background-color: white;
+    }
+    p {
+    font-size: 10px;
+    font-family: monospace;
+    text-align: center;
+    padding: 0rem;
+    margin: 0rem;
+    position: relative;
+    top: 5rem;
+}
+
+
+#form {
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: 5rem;
+}
+#her {
+    position: relative;
+    top: 4rem;
+}
+
+body{
+    background: white;
+    color: black;
+}
+}
+
+@media (max-height: 812px){
+    
+}
+/* The End */
