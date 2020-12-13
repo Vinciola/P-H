@@ -195,7 +195,7 @@ nav{
     /* Media query for everything in the navbar */
     label.logo {
     color: rgb(78, 73, 151);
-    font-size: 15px;
+    font-size: 0.7rem;
     line-height: 50px;
     padding: 0 15px;
     font-weight: bold;
@@ -213,13 +213,13 @@ nav ul {
 }
 nav ul li a{
     color: rgb(78, 73, 151);
-    font-size: 0.6rem;
+    font-size: 0.3rem;
     font-weight: bold;
     font-family: lato;
     text-transform: uppercase;
 }
 button{
-    font-size: 0.6rem;
+    font-size: 0.3rem;
     font-weight: bold;
     font-family: lato;
     border: none;
@@ -229,7 +229,7 @@ button{
 }
 /* i used the active and hover pseudo classes to add kind of an animation.....it was the only thing i could think of*/
 a.active, a:hover{
-    font-size: 0.9rem;
+    font-size: 0.6rem;
 }
 /* The end of the navbar media query */
 
@@ -238,19 +238,20 @@ a.active, a:hover{
 .PH {
     position: absolute;
     top: 300px;
-   padding: 0 200px;
-    font-size: 1.4rem;
+    left: 5rem;
+   padding: 0 100px;
+    font-size: 0.8rem;
     color: aliceblue;
      font-family: audiowide;
 }
 .hire{
      position: absolute;
     top: 150px;
-    left: 2rem;
-    font-size: 1.0rem;
+    left: 1rem;
+    font-size: 0.6rem;
     font-weight: 100;
    margin: 200px;
-   padding: 0 20px;
+   padding: 0 5px;
    display: block;
    background: none;
    color: aliceblue;
@@ -345,9 +346,9 @@ body{
     /* Media query for everything in the navbar */
     label.logo {
     color: rgb(78, 73, 151);
-    font-size: 9px;
-    line-height: 80px;
-    padding: 0 10px;
+    font-size: 0.4rem;
+    line-height: 50px;
+    padding: 0 0px;
     font-weight: bold;
    font-family: audiowide;
    margin: 0px;
@@ -358,19 +359,19 @@ nav ul {
 }
  nav ul li {
     display: inline-block;
-    line-height: 80px;
+    line-height: 50px;
     margin: 0px;
     padding: 0px;
 }
 nav ul li a{
     color: rgb(78, 73, 151);
-    font-size: 5px;
+    font-size: 0.3rem;
     font-weight: bold;
     font-family: lato;
     text-transform: uppercase;
 }
 button{
-    font-size: 5px;
+    font-size: 0.3rem;
     font-weight: bold;
     font-family: lato;
     border: none;
@@ -380,7 +381,7 @@ button{
 }
 /* i used the active and hover pseudo classes to add kind of an animation.....it was the only thing i could think of*/
 a.active, a:hover{
-    font-size: 0.9rem;
+    font-size: 0.5rem;
 }
 /* The end of the navbar media query */
 
@@ -390,7 +391,7 @@ a.active, a:hover{
     position: absolute;
     top: 300px;
    padding: 0 100px;
-    font-size: 1rem;
+    font-size: 0.5rem;
     color: aliceblue;
      font-family: audiowide;
 }
@@ -398,10 +399,10 @@ a.active, a:hover{
      position: absolute;
     top: 200px;
     left: 0px;
-    font-size: 1rem;
+    font-size: 0.5rem;
     font-weight: 100;
    margin: 140px;
-   padding: 0 10px;
+   padding: 0 0px;
    display: block;
    background: none;
    color: aliceblue;
