@@ -1,4 +1,3 @@
-/* this rule applies to everything.kinda looks like what is used to select every thing in an SQL statement */
 *{
     padding: 0;
     margin: 0;
@@ -6,14 +5,11 @@
     list-style: none;
     box-sizing: border-box;
 }
-/* the end of "*" */
 
-/* this was meant to be a css variable for styling the NEWS part but it's not ready for now */
 :root {
     --gradient-bg-color: linear-gradient(to right bottom, rgba)
-/* /* end of the variable */
+}
 
-/* styling of the body */
 body{
      font-family: 'Courier New', Courier, monospace;
     
@@ -21,9 +17,7 @@ body{
      width: 100%;
      color: rgb(8, 4, 24);
 }
-/* end of the body styling */
-
-/* img styling. img is a class for the div that contains the navbar and it other components, if you don't remember kindly check the index.html document */
+/* img styling. */
 .img{
     background: url("images/muhannad-ajjan-sL2BRR1cuvM-unsplash.jpg");
     background-size: cover;
@@ -35,11 +29,9 @@ body{
     transition: ease-in-out .3s;
 
 }
-/*End of img styling */
+/* img styling */
 
 /* this is the navbar styling */
-
-/* styling for the navbar itself */
 nav{
     background: rgb(2, 4, 31);
     height: 80px;
@@ -47,9 +39,7 @@ nav{
    opacity: .8;
    position: fixed;
 }
-/* the end of the nav styling itself....This is not the end of the entire navbar styling */
 
-/* this styles the first h element in the navbar or simply the company's name */
 label.logo {
     color: rgb(78, 73, 151);
     font-size: 35px;
@@ -58,9 +48,6 @@ label.logo {
     font-weight: bold;
    font-family: audiowide;
 }
-/* the end of the logo styling */
-
-/* this contains added styling to the navbar components execpt the Company's name/logo */
 nav ul {
     float: right;
     margin-right: 20px;
@@ -93,9 +80,8 @@ a.active, a:hover{
     border-radius: 10px;
 }
 /* this marks the end of the hover and active effect */
-/* this is the end of the navbar styling */
+/* this is the navbar styling */
 
-/* this part styles the components of that div that ought to appear at the center of the .img's background image......If you're confused check the index.html document */
 .PH {
     position: absolute;
     top: 300px;
@@ -118,8 +104,6 @@ a.active, a:hover{
    border-style: groove;
    border-color: aliceblue;
 }
-/* the end of the styling for everything atop the page */
-
 
     /*this marks the beginning of me styling the actual contents of this landing page  */
 .content {
@@ -187,8 +171,6 @@ h2{
 #spa{
     font-size: 10px;
 }
-/* the end of the content styling */
-
 
 /* MEDIA QUERY */
 
@@ -498,5 +480,5 @@ h3{
 #spa{
     font-size: 10px;
 }
+
 }
-/* The END OF THE STYLING....FOR NOW. */
